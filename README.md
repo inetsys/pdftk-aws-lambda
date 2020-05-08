@@ -13,7 +13,7 @@ Currently the included binaries under `bin` and `lib` were built for the **PDFtk
 The following command will create a well-structured layer of this package:
 
 ```cmd
-git clone https://github.com:inetsys/pdftk-aws-lambda.git
+git clone https://github.com/inetsys/pdftk-aws-lambda.git
 cd pdftk-aws-lambda
 make
 ```
