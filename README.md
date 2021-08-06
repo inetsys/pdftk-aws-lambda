@@ -1,10 +1,10 @@
 # PDFtk
 
-[PDFtk Server](https://www.pdflabs.com/tools/pdftk-server/) is a command-line tool for working with PDFs.
+[pdftk-java](https://gitlab.com/pdftk-java/pdftk) is a command-line tool for working with PDFs.
 
 This project shows how to compile and deploy the `pdftk` binary as an AWS Lambda Layer, as well as a built version for the binaries ready to use.
 
-Currently the included binaries under `bin` and `lib` were built for the **PDFtk 2.02** version.
+Currently the included binary under `bin` was built for the **PDFtk 3.2.3** version.
 
 # AWS Lambda Layer
 
@@ -47,7 +47,7 @@ According to [AWS Documentation](https://docs.aws.amazon.com/lambda/latest/dg/cu
 * **LD_LIBRARY_PATH** includes `/opt/lib`
 * **PATH** includes `/opt/bin`
 
-The ZIP file resulting from executing `make` in this package will store both binary files under the corresponding directories, so it is ready to use system wide.
+The ZIP file resulting from executing `make` in this package will store the binary files under `bin`, so it is ready to use system wide.
 
 ### Usage
 
